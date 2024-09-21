@@ -10,7 +10,7 @@ Hier findest du Anwendungen und Experimente, die ich während meines Studiums un
 - **Technologien**: Java
   
 ### 2. Intelligente Stahlerkennung
-- **Beschreibung**: Ein Projekt, das in Python und Jupyter entwickelt wurde, um Cluster mit Stahldaten zu erzeugen. Ziel ist die Klassifizierung von Metallen im Stahl.
+- **Beschreibung**: Ein Projekt, das mit Python und Jupyter entwickelt wurde, um Cluster mit Stahldaten zu erzeugen. Ziel ist die Klassifizierung von Metallen im Stahl.
 - **Technologien**: Python, Jupyter
 
 ### 3. Undead Space
