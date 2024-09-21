@@ -1,0 +1,175 @@
+{
+  "type": "object",
+  "properties": {
+    "groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/group"
+      }
+    },
+    "pairs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pair"
+      }
+    },
+    "successorPairs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pair"
+      }
+    },
+    "successorParticipants": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/participant"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "groups",
+    "pairs",
+    "successorPairs",
+    "successorParticipants"
+  ],
+  "$defs": {
+    "group": {
+      "type": "object",
+      "properties": {
+        "course": {
+          "enum": [
+            "first",
+            "main",
+            "dessert"
+          ]
+        },
+        "foodType": {
+          "enum": [
+            "meat",
+            "veggie",
+            "vegan"
+          ]
+        },
+        "kitchen": {
+          "$ref": "#/$defs/kitchen"
+        },
+        "cookingPair": {
+          "$ref": "#/$defs/pair"
+        },
+        "secondPair": {
+          "$ref": "#/$defs/pair"
+        },
+        "thirdPair": {
+          "$ref": "#/$defs/pair"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "course",
+        "foodType",
+        "kitchen",
+        "cookingPair",
+        "secondPair",
+        "thirdPair"
+      ]
+    },
+    "pair": {
+      "type": "object",
+      "properties": {
+        "premade": {
+          "type": "boolean"
+        },
+        "foodPreference": {
+          "enum": [
+            "meat",
+            "veggie",
+            "vegan",
+            "none"
+          ]
+        },
+        "firstParticipant": {
+          "$ref": "#/$defs/participant"
+        },
+        "secondParticipant": {
+          "$ref": "#/$defs/participant"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "premade",
+        "foodPreference",
+        "firstParticipant",
+        "secondParticipant"
+      ]
+    },
+    "participant": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "foodPreference": {
+          "enum": [
+            "meat",
+            "veggie",
+            "vegan",
+            "none"
+          ]
+        },
+        "age": {
+          "type": "integer"
+        },
+        "gender": {
+          "enum": [
+            "female",
+            "male",
+            "other"
+          ]
+        },
+        "kitchen": {
+          "$ref": "#/$defs/kitchen"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "foodPreference",
+        "age",
+        "gender",
+        "kitchen"
+      ]
+    },
+    "kitchen": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "emergencyKitchen": {
+          "type": "boolean"
+        },
+        "story": {
+          "type": "integer"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "latitude": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "emergencyKitchen",
+        "story",
+        "longitude",
+        "latitude"
+      ]
+    }
+  }
+}

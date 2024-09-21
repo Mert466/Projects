@@ -1,0 +1,5 @@
+Anzahl Paerchen: 117
+Anzahl Nachrückerpersonen: 46
+Geschlechtsdiversitaet: 0.5811965811965812
+Altersdifferenz: 0.2264957264957265
+Vorliebenabweichung: 0.01282051282051282

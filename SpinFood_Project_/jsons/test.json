@@ -1,0 +1,20 @@
+{
+  "groups": [],
+  "pairs": [],
+  "successorPairs": [],
+  "successorParticipants": [
+    {
+      "id": "123",
+      "name": "John Doe",
+      "foodPreference": "meat",
+      "age": 40,
+      "gender": "male",
+      "kitchen": {
+        "emergencyKitchen": true,
+        "story": 2,
+        "longitude": 12.34,
+        "latitude": 56.78
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spinfood_Latest" />
+        <module name="Spinfood_Curr_2" />
+        <module name="Spinnfood_Main_Latest_2" />
+        <module name="project" />
+        <module name="Software_Praktikum" />
+        <module name="SP23_Gruppe3_AllanPenkhasov_AhmedSalama_OsmanYozgat" />
+        <module name="SP23_Gruppe3_AllanPenkhasov_AhmedSalama_OsmanYozgat_DionisBeqiraj" />
+        <module name="Praktikum" />
+        <module name="PraktikumFinished" />
+        <module name="Spinfood_Main" />
+        <module name="Praktikum4" />
+        <module name="Spinfood2" />
+        <module name="Spinfood_Current" />
+        <module name="Praktikum2023" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

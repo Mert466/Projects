@@ -1,0 +1,176 @@
+{
+  "groups": [
+    {
+      "course": "first",
+      "foodType": "vegan",
+      "kitchen": {
+        "emergencyKitchen": false,
+        "story": 2,
+        "longitude": 13.404954,
+        "latitude": 52.520008
+      },
+      "cookingPair": {
+        "premade": true,
+        "foodPreference": "vegan",
+        "firstParticipant": {
+          "id": "1",
+          "name": "John Doe",
+          "foodPreference": "vegan",
+          "age": 27,
+          "gender": "male",
+          "kitchen": {
+            "emergencyKitchen": false,
+            "story": 1,
+            "longitude": 13.403954,
+            "latitude": 52.510008
+          }
+        },
+        "secondParticipant": {
+          "id": "2",
+          "name": "Jane Smith",
+          "foodPreference": "vegan",
+          "age": 25,
+          "gender": "female",
+          "kitchen": {
+            "emergencyKitchen": false,
+            "story": 1,
+            "longitude": 13.404954,
+            "latitude": 52.520008
+          }
+        }
+      },
+      "secondPair": {
+        "premade": false,
+        "foodPreference": "vegan",
+        "firstParticipant": {
+          "id": "3",
+          "name": "Bob Builder",
+          "foodPreference": "vegan",
+          "age": 30,
+          "gender": "male",
+          "kitchen": {
+            "emergencyKitchen": false,
+            "story": 2,
+            "longitude": 13.405954,
+            "latitude": 52.530008
+          }
+        },
+        "secondParticipant": {
+          "id": "4",
+          "name": "Alice Wonderland",
+          "foodPreference": "vegan",
+          "age": 28,
+          "gender": "female",
+          "kitchen": null
+        }
+      },
+      "thirdPair": {
+        "premade": true,
+        "foodPreference": "vegan",
+        "firstParticipant": {
+          "id": "5",
+          "name": "Charlie Bucket",
+          "foodPreference": "vegan",
+          "age": 22,
+          "gender": "male",
+          "kitchen": null
+        },
+        "secondParticipant": {
+          "id": "6",
+          "name": "Dorothy Gale",
+          "foodPreference": "vegan",
+          "age": 20,
+          "gender": "female",
+          "kitchen": {
+            "emergencyKitchen": false,
+            "story": 1,
+            "longitude": 13.404954,
+            "latitude": 52.520008
+          }
+        }
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "premade": true,
+      "foodPreference": "vegan",
+      "firstParticipant": {
+        "id": "1",
+        "name": "John Doe",
+        "foodPreference": "vegan",
+        "age": 27,
+        "gender": "male",
+        "kitchen": {
+          "emergencyKitchen": false,
+          "story": 1,
+          "longitude": 13.403954,
+          "latitude": 52.510008
+        }
+      },
+      "secondParticipant": {
+        "id": "2",
+        "name": "Jane Smith",
+        "foodPreference": "vegan",
+        "age": 25,
+        "gender": "female",
+        "kitchen": {
+          "emergencyKitchen": false,
+          "story": 1,
+          "longitude": 13.404954,
+          "latitude": 52.520008
+        }
+      }
+    }
+  ],
+  "successorPairs": [
+    {
+      "premade": false,
+      "foodPreference": "vegan",
+      "firstParticipant": {
+        "id": "3",
+        "name": "Bob Builder",
+        "foodPreference": "vegan",
+        "age": 30,
+        "gender": "male",
+        "kitchen": {
+          "emergencyKitchen": false,
+          "story": 2,
+          "longitude": 13.405954,
+          "latitude": 52.530008
+        }
+      },
+      "secondParticipant": {
+        "id": "4",
+        "name": "Alice Wonderland",
+        "foodPreference": "vegan",
+        "age": 28,
+        "gender": "female",
+        "kitchen": null
+      }
+    }
+  ],
+  "successorParticipants": [
+    {
+      "id": "5",
+      "name": "Charlie Bucket",
+      "foodPreference": "vegan",
+      "age": 22,
+      "gender": "male",
+      "kitchen": null
+    },
+    {
+      "id": "6",
+      "name": "Dorothy Gale",
+      "foodPreference": "vegan",
+      "age": 20,
+      "gender": "female",
+      "kitchen": {
+        "emergencyKitchen": false,
+        "story": 1,
+        "longitude": 13.404954,
+        "latitude": 52.520008
+      }
+    }
+  ]
+}

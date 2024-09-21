@@ -1,0 +1,6 @@
+Anzahl Gruppen: 117
+Anzahl Nachrueckerpaerchen: 15
+Geschlechtsdiversitaet: 0.4358974358974359
+Altersdifferenz: 0.2264957264957265
+Vorliebenabweichung: 0.01282051282051282
+Weglänge: 1242.0
